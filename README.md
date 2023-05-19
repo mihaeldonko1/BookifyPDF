@@ -50,7 +50,7 @@ Parameters for working functions
         <i class="fas fa-arrow-circle-right"></i>
     </button>
 </body>
-<script src="./bookifyPDF.js" ></script>
+<script src="./bookifyPDF.min.js" ></script>
 <script>
     let url = "TestNumbers.pdf";
     readPDFasBook(url,"prev-btn","next-btn","book",1);
