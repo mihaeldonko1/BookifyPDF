@@ -8,26 +8,6 @@ BookifyPDF is a powerful library that enables you to effortlessly transform your
 - Customization Options: Customize the appearance and behavior of your flipbooks with a wide range of configurable settings.
 - Responsive Design: Ensure optimal viewing experiences across various devices and screen sizes, including desktops, tablets, and mobile devices.
 
-## Example Usage
-
-```html
-<body>
-    <button id="prev-btn">
-        <i class="fas fa-arrow-circle-left"></i>
-    </button>
-    <div id="book" class="book"></div>
-    <button id="next-btn">
-        <i class="fas fa-arrow-circle-right"></i>
-    </button>
-</body>
-<script src="./bookifyPDF.js" ></script>
-<script>
-    let url = "TestNumbers.pdf";
-    readPDFasBook(url,"prev-btn","next-btn","book",1);
-</script>
-```html
-
-
 ## Examples
 
 To try out BookifyPDF, follow these steps:
@@ -48,3 +28,26 @@ BookifyPDF is released under the MIT License.
 
 - Jan Volovšek
 - Mihael Donko
+
+
+## Example Usage
+
+```html
+<body>
+    <button id="prev-btn">
+        <i class="fas fa-arrow-circle-left"></i>
+    </button>
+    <div id="book" class="book"></div>
+    <button id="next-btn">
+        <i class="fas fa-arrow-circle-right"></i>
+    </button>
+</body>
+<script src="./bookifyPDF.js" ></script>
+<script>
+    let url = "TestNumbers.pdf";
+    readPDFasBook(url,"prev-btn","next-btn","book",1);
+</script>
+
+
+
+
