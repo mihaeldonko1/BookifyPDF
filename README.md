@@ -25,6 +25,9 @@ BookifyPDF is a powerful library that enables you to effortlessly transform your
     let url = "TestNumbers.pdf";
     readPDFasBook(url,"prev-btn","next-btn","book",1);
 </script>
+```html
+
+
 ## Examples
 
 To try out BookifyPDF, follow these steps:
