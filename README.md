@@ -30,6 +30,14 @@ BookifyPDF is released under the MIT License.
 - Mihael Donko
 
 
+## Created By
+Parameters for working functions
+- PDF url or path to certain PDF file
+- Previous button, this is an ID for previous page button.
+- Next button, this is an ID for next page button.
+- Scale, scale of which pdf is displayed at.
+
+
 ## Example Usage
 
 ```html
